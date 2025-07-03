@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NiesChat.Domain.ChatManagement\NiesChat.Domain.ChatManagement.csproj" />
+    <ProjectReference Include="..\NiesChat.Infra.ChatManagement\NiesChat.Infra.ChatManagement.csproj" />
+  </ItemGroup>
+
 </Project>
