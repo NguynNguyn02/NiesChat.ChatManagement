@@ -1,0 +1,6 @@
+@NiesChat.Api.ChatManagement_HostAddress = http://localhost:5008
+
+GET {{NiesChat.Api.ChatManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
